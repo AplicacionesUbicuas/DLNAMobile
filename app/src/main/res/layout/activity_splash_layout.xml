@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradient_background"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/green_blue_gradient_background"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/smarta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/abc_text_size_display_1_material" />
+
+        <ImageView
+            android:id="@+id/Unicauca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/image_description"
+            android:paddingTop="30dp"
+            android:src="@drawable/escudo" />
+
+        <TextView
+            android:id="@+id/unicauca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Unicauca"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="70dp"
+            android:text="@string/unicauca"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/unicauca"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:text="@string/year"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:textSize="@dimen/activity_horizontal_margin" />
+    </RelativeLayout>
+
+</RelativeLayout>

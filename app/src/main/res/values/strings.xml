@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DLNA Mobile</string>
+    <string name="title_section1">Control</string>
+    <string name="image_description">imageView</string>
+    <string name="title_detail">Announcement:</string>
+    <string name="titleDev">Lista de Dispositivos</string>
+    <string name="title">Title: </string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!--ConnectMessages -->
+    <string name="result_label">Seleccione dispositivo para conectar</string>
+    <string name="searching_message">Buscando dispositivos</string>
+    <string name="searching_error">Error buscando dispositivos</string>
+    <string name="searching_error_msg">No se ha encontrado un dispositivo para conexión</string>
+    <string name="pairing_message">Conectando con Dispositivo</string>
+    <string name="pairing_error">Error de emparejamiento</string>
+    <string name="pairing_error_msg">El Dispositivo ha rechazado la conexión</string>
+    <string name="pairing_error_limit">No es posible emparejar más dispositivos</string>
+    <string name="title_activity_control">ControlActivity</string>
+
+    <!-- Splash_activity_layout -->
+    <string name="unicauca">Universidad del Cauca</string>
+    <string name="year">2015</string>
+
+    <string name="app_id">678148922198695</string>
+    <!--Buttons-->
+    <string name="acept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="urlHint">192.168.0.20</string>
+    <string name="configuration">Configuración</string>
+    <string name="ipServer">IP Servidor:</string>
+    <string name="title_activity_view_page">ViewPAgeActivity</string>
+
+</resources>
